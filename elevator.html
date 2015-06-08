@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elevator Demo</title>
+    <link rel="stylesheet" type="text/css" href="./elevator.css">
+</head>
+<body>
+    <div class="outter-wrapper">
+        <section class="top">
+            <div id="mesg"></div>
+            <div class="top-floor-display">
+                <p style="display: none;" id="frFour" floor="4">4</p>
+                <p style="display: none;" id="frThree" floor="3">3</p>
+                <p style="display: none;" id="frTwo" floor="2">2</p>
+                <p id="frOne" floor="1">1</p>
+            </div><!-- 
+            --><div class="top-up-down">
+                <div class="green"></div>
+                <div class="red"></div>    
+            </div>
+        </section>
+
+        <section class="bottom">
+            <p id="three" class="round" button="3">3</p>
+            <p id="four" class="round" button="4">4</p>
+            <p id="one" class="round" button="1">1</p>
+            <p id="two" class="round" button="2">2</p>
+        </section>
+        </div>
+    </div>
+    <script src="./jquery-1.11.3.js"></script>
+    <script src="./elevator2.js"></script>
+</body>
+</html>
